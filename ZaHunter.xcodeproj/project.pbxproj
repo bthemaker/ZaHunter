@@ -13,6 +13,7 @@
 		4DCB9F7C26B46E1A003B6F74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCB9F7B26B46E1A003B6F74 /* Preview Assets.xcassets */; };
 		4DCB9F8726B46E1A003B6F74 /* ZaHunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB9F8626B46E1A003B6F74 /* ZaHunterTests.swift */; };
 		4DCB9F9226B46E1A003B6F74 /* ZaHunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB9F9126B46E1A003B6F74 /* ZaHunterUITests.swift */; };
+		4DCB9FA026B46E9C003B6F74 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB9F9F26B46E9C003B6F74 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4DCB9F8D26B46E1A003B6F74 /* ZaHunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCB9F9126B46E1A003B6F74 /* ZaHunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaHunterUITests.swift; sourceTree = "<group>"; };
 		4DCB9F9326B46E1A003B6F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCB9F9F26B46E9C003B6F74 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				4DCB9F7426B46E19003B6F74 /* ZaHunterApp.swift */,
 				4DCB9F7626B46E19003B6F74 /* ContentView.swift */,
+				4DCB9F9F26B46E9C003B6F74 /* LocationManager.swift */,
 				4DCB9F7826B46E1A003B6F74 /* Assets.xcassets */,
 				4DCB9F7D26B46E1A003B6F74 /* Info.plist */,
 				4DCB9F7A26B46E1A003B6F74 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				4DCB9F7726B46E19003B6F74 /* ContentView.swift in Sources */,
 				4DCB9F7526B46E19003B6F74 /* ZaHunterApp.swift in Sources */,
+				4DCB9FA026B46E9C003B6F74 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
