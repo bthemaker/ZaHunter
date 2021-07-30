@@ -22,7 +22,12 @@ struct ContentView: View {
             longitudeDelta: 0.05)
     )
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(
+            coordinateRegion: $region,
+            interactionModes: .all,
+            showsUserLocation: true,
+            userTrackingMode: $userTrackingMode
+        )
     }
 }
 
